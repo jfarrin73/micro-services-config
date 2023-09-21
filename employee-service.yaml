@@ -1,6 +1,6 @@
 spring:
   boot:
-    message: hello, employee service
+    message: hello, employee service bus demo
   datasource:
     url: jdbc:postgresql://${POSTGRES_HOST:localhost}:${POSTGRES_PORT:5445}/${POSTGRES_DB:udemy_2}
     username: ${POSTGRES_USERNAME:udemy_2}
